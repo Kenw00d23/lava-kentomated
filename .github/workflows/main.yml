@@ -14,8 +14,8 @@ permissions:
   contents: write # Grants permissions to write to the repo
 
 env:
-  GIT_USER_EMAIL: rxmxdhxni@gmail.com
-  GIT_USER_NAME: dante4rt
+  GIT_USER_EMAIL: knw0d23@gmail.com
+  GIT_USER_NAME: Kenw00d23
 
 jobs:
   ethereum_auto_commit:
@@ -31,8 +31,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "knw0d23@gmail.com"
-          git config user.name "Kenw00d23"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -61,8 +61,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "knw0d23@gmail.com"
-          git config user.name "Kenw00d23"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -91,8 +91,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "knw0d23@gmail.com"
-          git config user.name "Kenw00d23"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
@@ -121,8 +121,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "knw0d23@gmail.com"
-          git config user.name "Kenw00d23"
+          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "$GIT_USER_NAME"
 
       - name: Commit changes
         run: |
