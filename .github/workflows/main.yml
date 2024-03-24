@@ -31,8 +31,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "knw0d23@gmail.com"
+          git config user.name "Kenw00d23"
 
       - name: Commit changes
         run: |
@@ -61,8 +61,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "knw0d23@gmail.com"
+          git config user.name "Kenw00d23"
 
       - name: Commit changes
         run: |
@@ -91,8 +91,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "knw0d23@gmail.com"
+          git config user.name "Kenw00d23"
 
       - name: Commit changes
         run: |
@@ -121,8 +121,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "knw0d23@gmail.com"
+          git config user.name "Kenw00d23"
 
       - name: Commit changes
         run: |
